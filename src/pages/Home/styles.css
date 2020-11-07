@@ -1,0 +1,23 @@
+main div.content {
+  flex-direction: column;
+}
+
+/* main div.content img {
+  width: fit-content;
+  height: fit-content;
+} */
+
+.pokemon-list li {
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.pokemon-list li + li {
+  margin-top: 10px;
+}
+
+.pokemon-list li img {
+  width: 80px;
+  margin-right: 15px;
+}
