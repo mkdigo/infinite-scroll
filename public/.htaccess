@@ -1,0 +1,18 @@
+# Redireciona domínio com o www para endereço sem o www
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.rodrigomukudai.com [NC]
+RewriteRule ^(.*)$ http://rodrigomukudai.com/pokemon/$1 [L,R=301]
+</IfModule>
+
+# Redireciona de http para https
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/pokemon/$1 [L,R=301]
+</IfModule>
+
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]

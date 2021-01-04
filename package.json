@@ -1,6 +1,7 @@
 {
   "name": "pokemon",
   "version": "0.1.0",
+  "homepage": "pokemon",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
