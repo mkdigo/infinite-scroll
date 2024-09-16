@@ -1,0 +1,7 @@
+footer div.content {
+  justify-content: flex-end;
+
+  font-style: italic;
+  color: var(--color-gray);
+  border-top: solid 1px var(--color-gray);
+}
