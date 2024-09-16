@@ -4,6 +4,8 @@ O objetivo desse pequeno projeto é o estudo do React js com chamada API do http
 
 ![alt text](https://github.com/mkdigo/infinite-scroll/blob/master/home.png?raw=true)
 
+![home image](https://raw.githubusercontent.com/mkdigo/infinite-scroll/main/home.png)
+
 ## Instale os pacotes.
 
 yarn install ou npm install
